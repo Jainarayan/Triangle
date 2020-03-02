@@ -86,5 +86,5 @@ function vertexLabel(){
 	
 	text(a, x1pt + 1, y1pt + 1);
 	text(b, x2pt + 1, y2pt + 1);
-	text(b, x3pt + 1, y3pt + 1);
+	text(c, x3pt + 1, y3pt + 1);
 }
