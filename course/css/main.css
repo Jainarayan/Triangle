@@ -1,0 +1,36 @@
+* {box-sizing: border-box}
+body{
+	overflow-y: hidden;
+}
+:root {
+  --ratio: 9 / 16;
+  --width: 100vmin;
+  --height: calc(var(--width) * var(--ratio));
+  --white: #ffffff;
+}
+#buttonContainer{
+	position: absolute;
+	width: 10vmin;
+	left: 100vmin;
+}
+#button{
+	cursor: pointer;
+	border: 0.2vmin solid;
+	background: #000;
+	color: #fff;
+	border-radius: 1vmin;
+	text-align: center;
+	font-size: 3vmin;
+}
+#values{
+	position: absolute;
+	width: 65vmin;
+	top: 10vmin;
+	left: 100vmin;
+	border: 0.2vmin;
+	display: none;
+}
+html
+{
+  -webkit-tap-highlight-color:transparent;
+}
